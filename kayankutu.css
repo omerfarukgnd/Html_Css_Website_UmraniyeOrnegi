@@ -1,0 +1,42 @@
+
+/*      SOL KUTU    */
+.leftSide {
+    margin-top: 0px;
+    position: absolute;
+    left: 0px;
+    float: left;
+    top: 290px;
+    width: 75px;
+    padding-top: 20px;
+    background: url(umraniye/leftSide-Bg.png);
+    border-radius: 0px 0px 20px 0px;
+    z-index: 9999999;
+    background-color: black;
+}
+.leftSide-Bttn {
+    position: absolute;
+    float: right;
+    right: -15px;
+    top: 0px;
+    width: 15px;
+    height: 20px;
+    cursor: pointer;
+    background: url(umraniye/leftSide-Bttn.png) no-repeat;
+}
+.leftSide-Links {
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+}
+a {
+    text-decoration: none;
+}
+.leftSide-Links a {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 16px;
+}

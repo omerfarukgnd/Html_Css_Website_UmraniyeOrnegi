@@ -1,0 +1,149 @@
+/*  body bütün siteye etki eder*/
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.headerWrapper{
+    width: 100%;
+    background-color: white;
+}
+
+.header{
+    margin: 0 auto;
+    width: 980px;
+    height: 123px;
+}
+
+.headerLeft{
+    float: left;
+    width: 150px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.headerRight{
+    float: right;
+    width: 80%;
+    height: 70px;
+}
+
+.headerRight .headerRightTop {
+    float: right;
+    width: 765px;
+    height: 40px;
+    border-bottom: 1px solid grey;
+}
+
+.headerRightBottom{
+    float: right;
+    width: 100%;
+    height: 85px;
+	background: url(umraniye/headerMenubg.png) no-repeat center 30px;
+}
+
+.links#social {
+    width: 370px;
+}
+.socialLinks {
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.links .socialLinks a {
+	float: left;
+	font-size: 10px;
+	height: 25px;
+	padding-top: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#social .socialLinks a:hover {
+	background: #F7F7F7;
+}
+.links .socialLinks a:before {
+	content: '';
+	float: left;
+	width: 14px;
+	height: 21px;
+	margin-right: 6px;
+	background: url(umraniye/headerSpriteIcons.png) no-repeat left top;
+	position: relative;
+	top: -10px;
+}
+.links .socialLinks a#rss:before {
+	background-position: left -27px;
+}
+
+.links .socialLinks a#youtube:before {
+	background-position: left 0;
+}
+
+.links .socialLinks a#facebook:before {
+	background-position: -30px 0;
+}
+
+.links .socialLinks a#twitter:before {
+	background-position: -57px 0;
+}
+.links .socialLinks a#site-map:before {
+	background-position: -87px 0;
+	margin-left: 21px;
+}
+
+.links .socialLinks a#iletisim:before {
+	background-position: -116px 0;
+}
+
+.links .socialLinks a#language:before {
+	background: none;
+	margin-left: -20px;
+}
+.links .socialLinks #instagram::before {
+	top:0 ;
+    background: url("umraniye/instagram-ico.ico") no-repeat;
+    margin-top: -3px; 
+}
+.links {
+    float: left;
+    width: 244px;
+    height: 40px;
+    border-right: 1px solid grey;
+    position: relative;
+}
+
+.callCenter {
+	float: right;
+    height: 33px;
+    margin-top: 8px;
+}
+.callCenter p {
+	width: 85px;
+	height: 30px;
+	float: left;
+    font-size: 10px;
+    color: black;
+}
+.callCenter p b {
+	float: left;
+	font-size: 18px;
+}
+.headerRightTop .callCenter span{
+	background: url(umraniye/call-center.png) no-repeat;
+	float: left;
+	width: 30px;
+	height: 40px;
+}
+.headerRight .headerRightBottom {
+	float: right;
+	clear: both;
+	width: 100%;
+	height: 85px;
+	background: url(umraniye/headerMenubg.png) no-repeat center 30px;
+}

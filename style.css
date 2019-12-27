@@ -1,0 +1,187 @@
+.slider1{
+	
+    width: 985px;
+                
+    position: relative;
+    
+    margin: 4px;
+    
+    margin-top: 4px;
+    }
+    .slider2{
+    
+    width: 670px;
+            
+    height: 320px;
+        
+    position: relative;
+    
+    margin: auto;
+    
+    
+    }
+    .slider3{
+        
+    width: 630px;
+            
+    height: 320px;
+        
+    position: relative;
+    
+    margin: auto;
+    }
+    .numbers{
+    
+    position: relative;
+    
+    top: 0;
+    
+    color: #f2f2f2;
+    
+    padding: 8px 12px;
+    
+    font-size: 12px;
+    
+    }
+    .myslides{
+    
+    display: none;
+        
+    height: 310px;
+    
+    }
+    .myslides_1,.myslides_2,.myslides_3{
+        display:none;
+        height:300px;
+    }
+    .prev , .next{
+    
+    position: relative;
+    
+    top: 50%;
+    
+    font-size: 18px;
+    
+    font-weight: bold;
+    
+    padding: 16px;
+    
+    margin-top: -22px;
+    
+    border-radius: 0 3px 3px 0;
+    
+    color: #fff;
+    
+    cursor: pointer;
+    
+    }
+    .next{
+    
+    right: 0;
+    
+    border-radius: 3px 0 0 3px;
+    
+    }
+    .prev:hover,.next:hover{
+    
+    background-color: rgba(0,0,0,0.8);
+    
+    }
+    .caption{
+    
+    position:relative; width:990px; 
+    height:60px;  
+    top:-100px; filter:alpha(opacity=50);
+    -moz-opacity:.50; opacity:.60; 
+    background-color:#000000; color:#FFFFFF; padding:10px;
+    font-family:'PT Sans',sans-serif;font-size:47px;
+    letter-spacing:0;
+    font-style:normal;
+    text-align:left;
+    }
+    .caption2{
+    position:relative; width:640px; height:60px;  top:-100px;margin-left: 5px; filter:alpha(opacity=50);-moz-opacity:.50; opacity:.60; background-color:#000000; color:#FFFFFF;padding:10px;
+    font-family:'PT Sans',sans-serif;font-size:30px;color:#ffffff;letter-spacing:0;font-style:normal;text-align:left;
+    }
+    .caption3{
+    position:relative; width:600px; height:60px; top:-100px;margin-left: 5px; filter:alpha(opacity=50);-moz-opacity:.50; opacity:.60; background-color:#000000; color:#FFFFFF; padding:10px;
+    font-family:'PT Sans',sans-serif;font-size:30px;color:#ffffff;letter-spacing:0;font-style:normal;text-align:left;
+    }
+    .caption4{
+    position:relative; width:600px; height:60px; top:-100px;margin-left: 5px; filter:alpha(opacity=50);-moz-opacity:.50; opacity:.60; background-color:#000000; color:#FFFFFF; font-size:32px; padding:10px;
+    font-family:'PT Sans',sans-serif;font-size:25px;color:#ffffff;letter-spacing:0;font-style:normal;text-align:left;
+    }
+    .dots{
+    
+    width: 84px;
+    
+    height: 45px;
+    
+    background: white;
+    
+    display: inline-block;
+    
+    border:1px solid #CCCCCC;
+    
+    cursor: pointer;
+    
+    }
+    .dots_1,.dots_2{
+    width: 41px;
+    
+    height: 41px;	
+    
+    padding: 9px 3px;
+        
+    background: white;
+    
+    display: inline-block;
+    
+    border:1px solid #CCCCCC;
+    
+    cursor: pointer;
+    }
+    .dots_3{
+    width: 40px;
+    
+    height: 40px;
+    
+    background: #eaeef1;
+    
+    display: inline-block;
+    
+    border:1px solid #CCCCCC;
+    
+    cursor: pointer;
+    }
+    #sonbuton{
+        width: 120px;
+        color:black;
+    }
+    #sonbuton:hover{
+        
+    color: darkblue;
+        
+    }
+    #sonbuton2{
+        width: 100px;
+    }
+    .fade{
+    
+    animation-name:fade;
+    
+    animation-duration:1.5s;
+            
+    }
+    @keyframes fade{
+    
+    from {opacity: 0.4;}
+    
+    to {opacity: 1;}
+    
+    }
+    .active, .dot:hover {
+    
+    background-color: green;
+    
+    }

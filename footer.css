@@ -1,0 +1,733 @@
+/*-----------------------------------------
+
+	FOOTER
+
+-----------------------------------------*/
+
+.footerWrapper {
+
+	width: 100%;
+
+	height: 125px;
+
+	float: left;
+
+	clear: both;
+
+	position: relative;
+
+	z-index: 8;
+
+}
+
+.subPage-footerWrapper {
+
+	margin-top: 40px;
+
+}
+
+.footerBanner-Wrapper {
+
+	width: 100%;
+
+	height: 97px;
+
+	position: relative;
+
+	z-index: 10;
+
+	background: #c0c0c0;
+
+	-webkit-box-shadow: 0px -1px 5px 0px rgba(50, 50, 50, 0.3);
+
+	-moz-box-shadow: 0px -1px 5px 0px rgba(50, 50, 50, 0.3);
+
+	box-shadow: 0px -1px 5px 0px rgba(50, 50, 50, 0.3);
+
+}
+
+.footerBanner {
+
+	width: 980px;
+
+	height: 100%;
+
+	margin: 0 auto;
+
+}
+
+.footerBanner-Links {
+
+	float: left; width: 92.7px; height: 100%; background: #ececec; margin-right: 1px;	text-align: center;
+
+}
+
+.footerBanner-Links:last-child {
+
+	margin-right: 0;
+
+}
+
+.footerBanner-Links:hover {
+
+	background: #F9F9F9;
+
+}
+
+.footerBanner-Ico {
+
+	width: 100%;
+
+	height: 60px;
+
+}
+
+.footerBanner-Title {
+
+	width: 90%;
+
+	display: inline-block;
+
+	color: #000;
+
+	font-size:13px;
+
+}
+
+.footerBanner-Ad {
+
+	float: left;
+
+	width: 324px;
+
+	height: 100%;
+
+	overflow: hidden;
+
+	position: relative;
+
+	z-index: 5;
+
+}
+
+.footer-SliderWrapper {
+
+	position: relative;
+	width: 324px;
+	height: 97px;
+
+}
+
+.footer-BannerSlider {
+
+	float: right;
+
+	overflow: hidden;
+
+	width: 324px;
+
+	height: 97px;
+
+	position: relative;
+
+	z-index: 5;
+
+}
+
+.f-slider-nav {
+
+	display: inline-block;
+
+	height: 20px;
+
+	position: absolute;
+
+	text-align: center;
+
+	z-index: 9996;
+
+	bottom: -5px;
+
+	width: 100%;
+
+}
+
+.paging a {
+
+  background: url("umraniye/mainBanner-bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+  display: inline-block;
+
+  height: 4px;
+
+  margin-right: 5px;
+
+  width: 10px;
+
+}
+
+.paging .selected {
+
+	background: url(umraniye/sub-Menu-bg.png);
+
+}
+
+.paging a span {
+
+	display: none;
+
+}
+
+.pagingg a {
+
+	background: url(umraniye/mainBanner-bg.png);
+
+	border-radius: 50%;
+
+	height: 10px;
+
+	margin-right: 5px;
+
+	width: 10px;
+
+	display: inline-block;
+
+	border: 1px solid #D38F8F;
+
+}
+
+.pagingg .selected {
+
+	background: url(umraniye/sub-Menu-bg.png);
+
+}
+
+.pagingg a span {
+
+	display: none;
+
+}
+
+.footerBanner-Ad p {
+
+	float: right;
+
+	width: 192px;
+
+	color: #9c5114;
+
+	clear: both;
+
+	text-align: right;
+
+	margin-top: 12px;
+
+	margin-right: 10px;
+
+}
+
+.footerContent-Wrapper {
+
+	background: #e8e8e8;
+
+	-webkit-box-shadow: 0px -1px 5px 0px rgba(50, 50, 50, 0.3);
+
+	-moz-box-shadow: 0px -1px 5px 0px rgba(50, 50, 50, 0.3);
+
+	box-shadow: 0px -1px 5px 0px rgba(50, 50, 50, 0.3);
+
+	width: 100%;
+
+	clear: both;
+
+	position: relative;
+
+	z-index: 15;
+
+	border-top: 5px solid #231f20;
+
+	float: left;
+
+}
+
+.footer {
+
+	width: 980px;
+
+	float: left;
+
+	padding-top: 14px;
+
+	position: relative;
+
+	left: 50%;
+
+	margin-left: -490px;
+
+	padding-bottom: 30px;
+
+}
+
+.pageUp-Bttn {
+
+	background: url(umraniye/pageUp-Bttn.png) no-repeat;
+
+	width: 30px;
+
+	height: 19px;
+
+	position: absolute;
+
+	right: 0;
+
+	top: 0px;
+
+	cursor: pointer;
+
+}
+
+.footerLeft {
+
+	float: left;
+
+	width: 110px;
+
+	height: 200px;
+
+	padding-right: 5px;
+
+	border-right: 1px solid #c3c3c3;
+
+}
+
+.footerRight {
+
+	float: right;
+
+	width: 88%;
+
+}
+
+.footerLeft a {
+
+	float: left;
+
+	margin-top: 8px;
+
+}
+
+.footerLeft a:hover {
+
+	text-decoration: underline
+
+}
+
+.mobileSite-Bttn {
+
+	background: url(umraniye/mobilesiteButton.png) no-repeat;
+
+	width: 72px;
+
+	height: 22px;
+
+	color: #fff;
+
+	padding-left: 28px;
+
+	padding-top: 8px;
+
+}
+
+.footerTop {
+
+	float: right;
+
+	width: 100%;
+
+	height: 50px;
+
+	border-bottom: 1px solid #c3c3c3;
+
+}
+
+.f-siteMap {
+
+	float: left;
+
+	margin-top: 17px;
+
+	margin-left: 14px;
+
+	font-size: 13px;
+
+}
+
+.f-Social {
+
+	float: right;
+
+	height: 36px;
+
+	margin-right: 40px;
+
+}
+
+.f-Social a {
+
+	background: url(umraniye/footerSprite.png) no-repeat;
+
+	float: left;
+
+	width: 38px;
+
+	height: 36px;
+
+	margin-right: 4px;
+
+}
+
+.f-Social a#f-rss {background-position: -76px 0px;}
+
+.f-Social a#f-twitter {background-position: -189px 0;}
+
+.f-Social a#f-facebook {background-position: -150px 0;}
+
+.f-Social a#f-youtube {background-position: -112px 0px;}
+.f-Social .umraniyekis {
+    width: 128px;
+    padding-top: 1px;
+    margin-right:10px;
+    background:none;
+}
+.footerTop a#f-site-map:before {
+
+	content: '';
+
+	background: url(umraniye/headerSpriteIcons.png) no-repeat -87px 0;
+
+	float: left;
+
+	width: 14px;
+
+	height: 22px;
+
+	margin-top: -8px;
+
+	margin-right: 6px;
+
+}
+
+.f-callCenter {float: right;width: 143px;height: 36px;margin: 0;background: url(umraniye/footerSprite.png) no-repeat -228px 0;}
+
+.f-callCenter span {
+
+	background: none
+
+}
+
+.f-callCenter a p {
+
+	margin-top: 6px;
+
+	float: left;
+
+	color: #FFF;
+
+	margin-left: 11px;
+
+}
+
+.f-callCenter a p b {
+
+	float: left;
+
+	font-size: 18px;
+
+}
+
+.footerBottom {
+
+	width: 100%;
+
+	float: right;
+
+	clear: both;
+
+}
+
+.f-Column {
+
+	float: left;
+
+	width: 15%;
+
+	margin-left: 15px;
+
+	margin-top: 14px;
+
+}
+
+.f-Column a {
+
+	background: url(umraniye/subMenuLeft-Arrow.png) no-repeat left;
+
+	float: left;
+
+	clear: both;
+
+	padding-left: 12px;
+
+	margin-bottom: 4px;
+
+}
+
+.f-Column a:hover {
+
+	text-decoration: underline;
+
+}
+
+.f-Contact {background: url(umraniye/footerSprite.png) no-repeat -112px -38px;float: right;width: 315px;height: 169px;margin-right: 35px;margin-top: 15px;cursor: pointer;}
+
+.info-Contact {
+
+	float: left;
+
+    width: 75%;
+
+    margin-left: 15px;
+
+    margin-top: 29px;
+
+}
+
+.info-Contact p {
+
+	float: left;
+
+	color: #df0533;
+
+	font-weight: bold;
+
+	font-size: 15px;
+
+	font-style: italic;
+
+	clear: both;
+
+	width: 100%;
+
+}
+
+.info-Contact span {
+
+	float: left;
+
+	clear: both;
+
+	margin-top: 14px;
+
+	margin-bottom: 14px;
+
+	width: 100%;
+
+	font-style: italic;
+
+	font-size: 12px;
+
+}
+
+.form-Contact {
+
+	display: none;
+
+	float: left;
+
+	width: 100%;
+
+	height: 100%;
+
+	background: #FFF;
+
+	-webkit-border-radius: 5px;
+
+	-moz-border-radius: 5px;
+
+	border-radius: 5px;
+
+	position: relative;
+
+	z-index: 99
+
+}
+
+.form-Contact span {
+
+	float: left;
+
+    margin-left: 10px;
+
+    margin-top: 10px;
+
+    width: 100%;
+
+}
+
+.formContactInput {
+
+    width: 128px;
+
+    height: 35px;
+
+    margin-bottom: 5px;
+
+    margin-left: 10px;
+
+    margin-top: 10px;
+
+    background-color: #d6d6d6;
+
+    color: #9B9B9B;
+
+    margin-right: 10px;
+
+}
+
+.formContactBttn {
+
+	width: 75px;
+
+	height: 28px;
+
+	background-image: none;
+
+	background-color: #45454b!important;
+
+	text-align: center;
+
+	padding: 0;
+
+	float: right;
+
+	margin-right: 10px;
+
+	-webkit-border-radius: 5px;
+
+	-moz-border-radius: 5px;
+
+	border-radius: 5px;
+
+}
+
+.subFooter-Wrapper {
+
+	clear: both;
+
+	width: 100%;
+
+	background: #141512;
+
+	padding: 10px 0px 10px 0px;
+
+}
+
+.subFooter {
+
+	width: 980px;
+
+	margin: 0 auto;
+
+	color: #9c9c9c;
+
+	text-align: left;
+
+	font-size: 12px;
+
+}
+
+.kentkonseyifooterBanner-Ad {
+
+	float: left;
+
+	width: 240px;
+
+	height: 393px;
+
+	overflow: hidden;
+
+	position: relative;
+
+	z-index: 5;
+
+}
+
+.kulturfooterBanner-Ad {
+
+    float: left;
+
+    height: 327px;
+
+    overflow: hidden;
+
+    position: relative;
+
+    width: 385px;
+
+    z-index: 5;
+
+}
+
+.kulturfooterBanner-Ad2 {
+
+    float: left;
+
+    height: 258px;
+
+    overflow: hidden;
+
+    position: relative;
+
+    width: 385px;
+
+    z-index: 5;
+
+}
+
+.kulturfooterBanner-Alt {
+
+	float: left;
+
+    height: 62px;
+
+    overflow: hidden;
+
+    position: relative;
+
+    width: 385px;
+
+    z-index: 5;
+
+	margin-top:7px;
+
+}
+
+.middle-banner-Slider {
+
+	height: 393px;
+
+}
+#f-instagram {
+	background:rgba(0, 0, 0, 0) url("umraniye/instagram.png") no-repeat scroll left top / 38px 36px;
+}
+
+.f-Social .umraniyekis img{
+	width:100%;
+}
+
+.f-Social a#f-trafik {
+    background-position: -38px 0px;
+}
+
+.f-Social a#f-yolculuk {
+    background-position: 0px 0px;
+}

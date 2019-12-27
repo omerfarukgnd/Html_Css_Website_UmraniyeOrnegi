@@ -1,0 +1,98 @@
+
+
+.quickMenu-Wrapper {
+	width: 100%;
+	position: absolute;
+	top: -29px;
+}
+.quickMenu {
+	width: 100%;
+	float: left;
+	background-color: #FFF;
+	box-shadow: 0px 1px 5px 0px #CCC;
+	z-index: 9;
+	height: 150px; /* ie9*/
+	position: relative;
+}
+.quickMenu-Content {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+.quickBttn-Wrapper {
+	float: left;
+	width: 100%;
+}
+.quickBttn {
+	background: url(umraniye/quickMenu-bttnSprite.png) no-repeat;
+	float: right;
+	padding-left: 32px;
+	padding-top: 15px;
+	font-weight: bold;
+	position: relative;
+	top: -3px;
+	cursor: pointer;
+}
+.quickClose {
+    background: url(umraniye/quick-Close.png) no-repeat;
+    width: 43px;
+    height: 44px;
+    float: right;
+    position: absolute;
+    z-index: 5;
+    top: -40px;
+    right: 64px;
+    cursor: pointer;
+}
+.quickBttn-Content {
+    width: 980px;
+    margin: 0 auto;
+    height: 100px;
+    position: relative;
+}
+.quickBttn#hizli-menu {
+	background-position: -119px 0px;
+	width: 97px;
+	height: 28px;
+	z-index: 5;
+	margin-right: -16px;
+}
+.quickBttn#hizli-menu:hover {
+	background-position: -119px -47px;
+	width: 97px;
+	height: 28px;
+	z-index: 5;
+	margin-right: -16px;
+}
+.quickBttn#hizliYarisma {
+	background-image:none;
+	width: 437px;
+	height: 26px;
+	z-index: 5;
+	margin-right: -7px;
+	background-color:#d13051;
+	border-radius:0px 5px 5px 5px;
+	text-align:center
+}
+.hizliYarisma { 
+    color:#FFFFFF
+}
+.quickBttn#ara {
+	background-position: 0 0;
+	width: 58px;
+	height: 30px;
+	z-index: 6;
+	padding-left: 51px;
+	margin-right: 100px;
+}
+.quickBttn#ara:hover {
+	background-position: 0 -47px;
+	width: 58px;
+	height: 30px;
+	z-index: 6;
+	padding-left: 51px;
+	margin-right: 100px;
+}
+.quickBttn .quickActive {
+
+}
